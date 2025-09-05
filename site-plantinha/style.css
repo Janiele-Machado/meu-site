@@ -113,21 +113,8 @@ div {
 #eqp {
     margin-top: -6vh;
 }
-#infosh1 {
-    margin-top: -25px;
-    margin-bottom: 50px;
-    font-weight: bold;
-    margin-left: 150px;
-    margin-right: 150px;
-    border-radius: 30px;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color:#0e3000;
-    background-color: #2277004b;
-}
-#nosso {
+
+.tituloVerdeClaro{
     margin-top: -25px;
     margin-bottom: 50px;
     font-weight: bold;

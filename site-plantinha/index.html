@@ -7,16 +7,16 @@
     <title>Plantinha</title> <!-- título na aba do navegador -->
     <!-- lnikar o css -->
     <link rel="stylesheet" href="style.css">
-    <!-- colocar a fotinha na aba do navegador -->
+    <!-- colocar a fotinha do MDC na aba do navegador -->
     <link rel="shortcut icon" href="img/logo_perfil_redonda.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <nav>
-            <a class="sin" href=#nosso>Objetivos</a> <!-- quando clicar nos objetivos desce a pagina -->
-            <a class="sin" href="#infosh1">Infos</a> <!-- quando clicar nas infos desce a pagina -->
-            <a class="sin" href="#nois">Nós</a> <!-- quando clicar em nós desce a pagina -->
+            <a class="sin" href=#nosso>Objetivos</a> <!-- Quando clicar nos objetivos desce a pagina para onde está os objetivos -->
+            <a class="sin">Infos</a> <!-- Desafio: quando clicar em infos desce a página para o local onde tem o título "Estapas da Oficina" -->
+            <a class="sin">Nós</a> <!-- Desafio: quando clicar em nós desce a pagina para o local onde tem o título "nós" -->
         </nav>
         <img src="img/logo_perfil_redonda.png" alt="foto de uma plantinha" id="logoMDC">
     </header>
@@ -26,7 +26,7 @@
     </div>
 
     <div id="objtv">
-        <h1 id="nosso">Nosso Objetivo</h1>
+        <h1 class="tituloVerdeClaro">Nosso Objetivo</h1>
         <p id="oproje">O projeto Plantinha desenvolvido pelo RENACEE-MD tem como objetivo  as estudantes
      que cursam Técnico em Informática para Internet Integrado ao Ensino Médio no
             <a id="if" target="_blank" href="https://ifgoiano.edu.br/home/index.php/ceres.html">IF Goiano - Campus
@@ -34,7 +34,7 @@
         </p>
     </div>
     <div id="infos">
-        <h1 id="infosh1">Etapas da Oficina:</h1>
+        <h1 class="tituloVerdeClaro">Etapas da Oficina:</h1>
         <h2 class="titulos">1º Etapa: Montando o Sistema de Umidade do Projeto Plantinha</h2>
         <p class="txts">
             Neste tutorial, vamos criar um protótipo que detecta a umidade do solo e indica se a planta precisa de água.
@@ -204,7 +204,7 @@
 
     </div>
     <div id="nos">
-        <h1 class="titulos">NÒS</h1>
+        <h1 class="tituloVerdeClaro">NÒS</h1>
         <h2 id ="deonde">Quem somos?
         </h2>
         <p class="txts">O RENACEE MD (Rede Nacional de Educação e Extensão Meninas Digitais) é uma iniciativa que visa
@@ -229,15 +229,21 @@
     </div>
     <div id="eqp">
         <p id="sevc">Se você leu até aqui, o nosso muito obrigada!;)</p>
-        <p class="txts">Site desenvolvido por: </p> 
-        <p class="tituloVerde">Insira o seu nome</p>
+        <p class="txts">Site desenvolvido pela: </p> 
+        <!-- Desafio: Enfeite o seu nome com uma cor diferente-->
+        <p class="txts">Insira o seu nome</p> 
         <p class="txts">Insira seu email</p>
+        <!--Desafio: Insira uma foto sua aqui utilizando a tag img e não se esqueça de estilizar ela utilizando o css -->
        
     </div>
 
     <footer id="fim">
-        <!-- o codigo &copy; faz com que aparece o simnolo de copyrigh -->
-        <p id="fimtxt">&copy;2025 Feito com ❤ por RENACEE-MD e Meninas Digitais no Cerrado.</p>
+        
+         <!-- Desafio: Coloque um link que ao clicar no nome Meninas Digitais no Cerrado o Usuário
+           seja direcionado para o site ou o intagram do projeto -->
+
+           <!-- o codigo &copy; faz com que aparece o simnolo de copyrigh -->
+        <p id="fimtxt">&copy;2025 Feito com ❤ por RENACEE_MD e Meninas Digitais no Cerrado.</p>
         <img id="min" src="img/logos.jpeg" alt="logo mdc if nepeti e renacee">
     </footer>
 </body>
